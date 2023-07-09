@@ -1,0 +1,242 @@
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#productsTable{
+  /* background-color: skyblue; */
+  margin-top: 20px;
+  /* align-items: center; */
+  text-align: center;
+  /* margin: auto; */
+  
+}
+
+
+#checkedOutPage{
+  text-align: center;
+}
+
+#addToCartPage{
+  text-align: center;
+}
+
+#cartTable{
+  width: 100%;
+  margin: auto;
+  /* background-color: aqua; */
+}
+
+#subtotalParagraph{
+  text-align: center;
+}
+
+#backCheckOutButtons{
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+#cartTable > * {
+  text-align: center;
+}
+
+#productIcon{
+  width: 20%;
+  display:inline-block;
+  text-align: center;
+  /* border: 1px solid black; */
+  /* margin: 5%; */
+  box-sizing: border-box; 
+}
+
+#itemDetailPage > *{
+  width: calc(100%/3);
+  display: inline-block;
+  text-align:center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  /* background: gold; */
+}
+
+#addToCartDiv{
+  /* display: flex; */
+  border: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  background: turquoise;
+  /* justify-content: center; */
+}
+
+
+#itemInfoDiv{
+  border-radius: 25px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* background: burlywood; */
+}
+
+#addToCartDiv> *{
+  vertical-align: middle;
+}
+
+
+#searchBar {
+  /* height: 100px; */
+  display: flex;
+  background: gray;
+}
+
+
+#searchBar>*{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#catDiv{
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+#catDiv>*{
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+#searchDiv {
+  width: 30%;
+  border-radius: 5%;
+}
+#searchDiv > *{
+  /* margin-top: 0; */
+  margin: auto;
+  display: inline-block;
+  height: 40px;
+  background: white;
+}
+
+#searchStringInput{
+  border: none;
+}
+#searchStringInput:active{
+  border: none;
+  outline: none;
+}
+
+#searchStringInputDiv{
+  border: 1px solid black
+}
+
+#categorySelection{
+  border: none;
+}
+
+#searchButton{
+  border:none;
+  background-color: bisque;
+}
+
+#searchButtonDiv{
+  border: 1px solid black;
+  background: bisque;
+}
+
+#categorySelectionDiv{
+  border: 1px solid black;
+}
+
+#cartInfoDiv{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#totalnumP{
+  margin: 0;
+}
+
+#viewCartButton{
+  /* background-color:aqua; */
+  border: none;
+  border-radius: 5%;
+}
+#viewCartButton:hover{
+  background-color: #1d1d1e;
+  color: white;
+}
+
+#greetingDiv{
+  margin-left: auto;
+}
+#addressP{
+  margin: 0;
+}
+#signOutButton{
+  border: 0;
+  border-radius: 5%;
+}
+#signOutButton:hover{
+  background-color: #1d1d1e;
+  color: white;
+}
+#usernameDiv{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#passwordDiv{
+  margin-bottom: 20px;
+}
+
+#loginPage{
+  margin-top: 300px;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
